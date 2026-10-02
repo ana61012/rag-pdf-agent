@@ -114,7 +114,7 @@ Free tiers have limits. Render's free service sleeps after 15 minutes without tr
 ## Notes
 
 - There is no login. Anyone with the link can upload files and use your Gemini quota, so share a deployed copy carefully.
-- Everyone who uses the app sees the same chat history.
+- The chat is shared by everyone using the app, and it is cleared whenever a page is loaded or the server restarts. Uploaded documents stay in the database.
 - Never commit API keys. Keep them in environment variables.
 
 ## Project structure
