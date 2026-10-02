@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.file;
+package pdf.rag.file;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

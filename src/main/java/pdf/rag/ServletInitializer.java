@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag;
+package pdf.rag;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

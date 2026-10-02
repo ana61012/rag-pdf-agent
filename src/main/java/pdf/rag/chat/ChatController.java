@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.chat;
+package pdf.rag.chat;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

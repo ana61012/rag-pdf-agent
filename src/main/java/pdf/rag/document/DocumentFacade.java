@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.document;
+package pdf.rag.document;
 
 import org.springframework.ai.document.Document;
 

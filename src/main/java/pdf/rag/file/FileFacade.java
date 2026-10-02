@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.file;
+package pdf.rag.file;
 
 import org.springframework.web.multipart.MultipartFile;
 

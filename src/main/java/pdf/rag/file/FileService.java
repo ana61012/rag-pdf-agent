@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.file;
+package pdf.rag.file;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.document.Document;
@@ -9,7 +9,7 @@ import org.springframework.ai.transformer.splitter.TextSplitter;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import pl.mojezapiski.rag.document.DocumentFacade;
+import pdf.rag.document.DocumentFacade;
 
 import java.util.List;
 

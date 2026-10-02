@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.chat;
+package pdf.rag.chat;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.messages.Message;
@@ -7,7 +7,7 @@ import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.SystemPromptTemplate;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.stereotype.Service;
-import pl.mojezapiski.rag.document.DocumentFacade;
+import pdf.rag.document.DocumentFacade;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

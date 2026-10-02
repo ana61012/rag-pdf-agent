@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag;
+package pdf.rag;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

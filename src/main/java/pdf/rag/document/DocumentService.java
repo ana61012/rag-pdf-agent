@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.document;
+package pdf.rag.document;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

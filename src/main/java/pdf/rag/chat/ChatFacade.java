@@ -1,4 +1,4 @@
-package pl.mojezapiski.rag.chat;
+package pdf.rag.chat;
 
 import java.util.List;
 
