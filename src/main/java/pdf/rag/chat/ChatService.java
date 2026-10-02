@@ -47,6 +47,10 @@ public class ChatService implements ChatFacade {
     public List<MessageDto> getMessages() {
         return messages;
     }
+    @Override
+    public void clearMessages() {
+        messages.clear();
+    }
 
     @Override
     public void sendMessage(MessageForm form) {

@@ -1,6 +1,7 @@
 package pdf.rag.chat;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -23,5 +24,10 @@ class ChatController {
     Map<String, Object> sendMessage(@RequestBody MessageForm messageForm) {
         chatFacade.sendMessage(messageForm);
         return getMessages();
+    }
+    @DeleteMapping("/messages")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    void clearMessages() {
+        chatFacade.clearMessages();
     }
 }

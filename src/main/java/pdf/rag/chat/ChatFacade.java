@@ -6,4 +6,5 @@ interface ChatFacade {
     List<MessageDto> getMessages();
 
     void sendMessage(MessageForm form);
+    void clearMessages();
 }
