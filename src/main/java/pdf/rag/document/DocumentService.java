@@ -21,6 +21,9 @@ class DocumentService implements DocumentFacade {
     }
     @Override
     public List<Document> getSimilarDocuments(String userPrompt) {
-        return pgVectorStore.similaritySearch(SearchRequest.builder().query(userPrompt).topK(4).build());
+        long start = System.nanoTime();
+        List<Document> result = pgVectorStore.similaritySearch(SearchRequest.builder().quer...);   // your original line, unchanged except the start
+        log.info("retrieval_ms={}", (System.nanoTime() - start) / 1_000_000);
+        return result;
     }
 }
